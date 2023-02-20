@@ -4,7 +4,7 @@ async function main() {
     const [Deployer]=await ethers.getSigners();
     console.log("Deployer Contract Address:",Deployer.address);
     const QSOLTOKEN = await ethers.getContractFactory("QSOLTOKEN");
-    const qsolToken = await upgrades.deployProxy(QSOLTOKEN,[],{ initializer: 'initialize' });
+    const qsolToken = await upgrades.deployProxy(QSOLTOKEN,["QSOL Coin", "QSOL"],{ initializer: 'initialize' });
     await qsolToken.deployed();
     console.log("QSOL Token deployed to:", qsolToken.address);
     saveFrontendFiles(qsolToken,"QSOLTOKEN");

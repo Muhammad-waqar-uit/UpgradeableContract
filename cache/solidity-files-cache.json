@@ -1006,8 +1006,8 @@
       ]
     },
     "C:\\Users\\muhammad waqar\\Desktop\\contracts\\contracts\\Token.sol": {
-      "lastModificationDate": 1676890176858,
-      "contentHash": "55238482d9b639b58d4b0f93407f05bc",
+      "lastModificationDate": 1676914254373,
+      "contentHash": "a7cd2fcfea6ab4a008299e9b7a82cb77",
       "sourceName": "contracts/Token.sol",
       "solcConfig": {
         "version": "0.8.17",
@@ -1035,7 +1035,6 @@
       },
       "imports": [
         "@openzeppelin/contracts-upgradeable/token/ERC20/presets/ERC20PresetMinterPauserUpgradeable.sol",
-        "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol",
         "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol"
       ],
       "versionPragmas": [
